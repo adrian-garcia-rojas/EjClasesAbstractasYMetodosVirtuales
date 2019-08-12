@@ -13,7 +13,10 @@ namespace Institucion
         {
             Console.WriteLine("APLICACION DE INSTITUCION");
 
-            var alumno1 = new Alumno("Adrian", "Garcia")
+
+            Persona[] lista = new Persona[3];
+
+            lista [0] = new Alumno("Adrian", "Garcia")
             {
                 Id = 1,
                 Edad = 21,
@@ -21,21 +24,33 @@ namespace Institucion
                 Email ="adrian@platzi.com"
             };
 
-            var profesor1 = new Profesor()
+            lista [1] = new Profesor()
             {
-                Id = 1, Nombre = "freddy",
+                Id = 2, Nombre = "elizabeth",
+                Apellido = "munoz",
+                Edad = 23,
+                Telefono = "83493412",
+                Catedra ="Cocina Internacional"
+            };
+
+            lista[2] = new Profesor()
+            {
+                Id = 3,
+                Nombre = "freddy",
                 Apellido = "vega",
                 Edad = 32,
                 Telefono = "83493747",
-                Catedra ="Programacion"
+                Catedra = "Programacion"
             };
 
             Console.WriteLine("Total de personas registras: " + Persona.ContadorPersonas);
 
             Console.WriteLine("Resumenes");
 
-            Console.WriteLine(alumno1.ConstruirResumen());
-            Console.WriteLine(profesor1.ConstruirResumen());
+            foreach(Persona p in lista)
+            {
+                Console.WriteLine(p.ConstruirResumen());
+            }
 
             Console.ReadLine();
 
