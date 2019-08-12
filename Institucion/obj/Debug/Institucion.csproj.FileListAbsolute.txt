@@ -1,0 +1,6 @@
+c:\users\axl\documents\visual studio 2017\Projects\Institucion\Institucion\bin\Debug\Institucion.exe.config
+c:\users\axl\documents\visual studio 2017\Projects\Institucion\Institucion\bin\Debug\Institucion.exe
+c:\users\axl\documents\visual studio 2017\Projects\Institucion\Institucion\bin\Debug\Institucion.pdb
+c:\users\axl\documents\visual studio 2017\Projects\Institucion\Institucion\obj\Debug\Institucion.csprojResolveAssemblyReference.cache
+c:\users\axl\documents\visual studio 2017\Projects\Institucion\Institucion\obj\Debug\Institucion.exe
+c:\users\axl\documents\visual studio 2017\Projects\Institucion\Institucion\obj\Debug\Institucion.pdb
