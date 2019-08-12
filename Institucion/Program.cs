@@ -49,6 +49,7 @@ namespace Institucion
 
             foreach(Persona p in lista)
             {
+                Console.WriteLine($"Tipo {p.GetType()}");
                 Console.WriteLine(p.ConstruirResumen());
             }
 
