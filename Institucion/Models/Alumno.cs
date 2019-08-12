@@ -21,5 +21,15 @@ namespace Institucion.Models
         {
             return $"{NombreCompleto}, {NickName}, {Telefono}";
         }
+
+        public override string NombreCompleto => base.NombreCompleto.ToUpper(); // esto se puede hacer por que en la clase padre estamos realizando un metodo virtual
+        //public override string NombreCompleto {   //esto tambien esquivalente con la funcionalidad de arriba y podemos hacer cosas diferentes como enviar mensajes de que la informacion existe pero esta bloqueada, esto ya es mas cuestion del modelo del negocio que se este implementando
+
+        //    get
+        //    {
+        //        return "INFORMACION BLEQUEADA";
+        //    }
+            
+        //}
     }
 }

@@ -18,7 +18,7 @@ namespace Institucion.Models
         public short Edad { get; set; }
 
         public string Telefono { get; set; }
-        public string NombreCompleto
+        public virtual string NombreCompleto
         {
             get
             {

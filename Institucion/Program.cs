@@ -16,9 +16,10 @@ namespace Institucion
 
             Persona[] lista = new Persona[3];
 
-            lista [0] = new Alumno("Adrian", "Garcia")
+            lista[0] = new Alumno("Adrian", "Garcia")
             {
                 Id = 1,
+                NickName = "goku",
                 Edad = 21,
                 Telefono = "202302332",
                 Email ="adrian@platzi.com"
